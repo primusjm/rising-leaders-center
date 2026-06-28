@@ -33,3 +33,4 @@ postcss:
 
 jekyll-minifier:
   compress_javascript: false
+  compress_css: false
