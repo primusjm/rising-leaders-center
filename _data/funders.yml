@@ -1,4 +1,5 @@
-- name: Wellspring Philanthropic Fund
-  logo: wellspring
-- name: Echidna Giving
-  logo: echidna
+funders:
+  - name: Wellspring Philanthropic Fund
+    logo: wellspring
+  - name: Echidna Giving
+    logo: echidna

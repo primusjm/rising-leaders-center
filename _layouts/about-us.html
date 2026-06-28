@@ -177,7 +177,7 @@ layout: compressa
 	  <div class="justify-start text-2xl font-bold leading-loose">CRLI Participants</div>
 	</div>
 	<div class="self-stretch inline-flex justify-center items-center md:justify-start md:items-start gap-12 flex-wrap content-start">
-	  {% for item in site.data.partners %}
+	  {% for item in site.data.partners.partners %}
 	  <div class="w-40 inline-flex flex-col justify-start items-center gap-3">
 		<img class="w-40 h-14" src="/assets/images/logos/{{item.logo}}.webp" />
 		<div class="self-stretch text-center justify-start text-black text-base leading-tight">{{item.name}}</div>
@@ -188,7 +188,7 @@ layout: compressa
 	  <div class="justify-start text-2xl font-bold leading-loose">CRLI Funders</div>
 	</div>
 	<div class="self-stretch inline-flex justify-center items-center md:justify-start md:items-start gap-12 flex-wrap content-start">
-	 {% for item in site.data.funders %}
+	 {% for item in site.data.funders.funders %}
 	 <div class="w-40 inline-flex flex-col justify-start items-center gap-3">
 	   <img class="w-40 h-14" src="/assets/images/logos/{{item.logo}}.webp" />
 	   <div class="self-stretch text-center justify-start text-black text-base leading-tight">{{item.name}}</div>

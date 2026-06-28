@@ -8,11 +8,11 @@
     <!-- <div class="w-full space-y-4"> -->
       <div class="w-full space-y-4" x-data="{ openFaq: 0 }">
         {% if page.title != "FAQs" %}
-          {% for faq in site.data.faqs limit:3 %}
+          {% for faq in site.data.faqs.faqs limit:3 %}
             {% include faq-list.html faq=faq index=forloop.index0 %}
           {% endfor %}
         {% else %}
-          {% for faq in site.data.faqs %}
+          {% for faq in site.data.faqs.faqs %}
             {% include faq-list.html faq=faq index=forloop.index0 %}
           {% endfor %}
         {% endif %}
