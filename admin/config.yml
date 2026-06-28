@@ -82,59 +82,74 @@ collections:
 
   - name: "faqs"
     label: "FAQs"
-    file: "_data/faqs.yml"
-    fields:
-      - label: "FAQs"
+    files:
+      - file: "_data/faqs.yml"
+        label: "FAQs"
         name: "faqs"
-        widget: "list"
         fields:
-          - { label: "Question", name: "question", widget: "string" }
-          - { label: "Answer", name: "answer", widget: "text" }
-          - { label: "Area", name: "area", widget: "string" }
+          - label: "FAQs"
+            name: "faqs"
+            widget: "list"
+            fields:
+              - { label: "Question", name: "question", widget: "string" }
+              - { label: "Answer", name: "answer", widget: "text" }
+              - { label: "Area", name: "area", widget: "string" }
 
   - name: "testimonials"
     label: "Testimonials"
-    file: "_data/testimonials.yml"
-    fields:
-      - label: "Testimonials"
+    files:
+      - file: "_data/testimonials.yml"
+        label: "Testimonials"
         name: "testimonials"
-        widget: "list"
         fields:
-          - { label: "Author", name: "author", widget: "string" }
-          - { label: "Company", name: "company", widget: "string" }
-          - { label: "Testimonial", name: "testimonial", widget: "text" }
+          - label: "Testimonials"
+            name: "testimonials"
+            widget: "list"
+            fields:
+              - { label: "Author", name: "author", widget: "string" }
+              - { label: "Company", name: "company", widget: "string" }
+              - { label: "Testimonial", name: "testimonial", widget: "text" }
 
   - name: "partners"
     label: "Partners"
-    file: "_data/partners.yml"
-    fields:
-      - label: "Partners"
+    files:
+      - file: "_data/partners.yml"
+        label: "Partners"
         name: "partners"
-        widget: "list"
         fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Logo filename", name: "logo", widget: "string", hint: "Filename (without extension) under assets/images/logos" }
+          - label: "Partners"
+            name: "partners"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Logo filename", name: "logo", widget: "string", hint: "Filename (without extension) under assets/images/logos" }
 
   - name: "funders"
     label: "Funders"
-    file: "_data/funders.yml"
-    fields:
-      - label: "Funders"
+    files:
+      - file: "_data/funders.yml"
+        label: "Funders"
         name: "funders"
-        widget: "list"
         fields:
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Logo filename", name: "logo", widget: "string", hint: "Filename (without extension) under assets/images/logos" }
+          - label: "Funders"
+            name: "funders"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Logo filename", name: "logo", widget: "string", hint: "Filename (without extension) under assets/images/logos" }
 
   - name: "clients"
     label: "Clients"
-    file: "_data/cliente.yml"
-    fields:
-      - label: "Clients"
+    files:
+      - file: "_data/cliente.yml"
+        label: "Clients"
         name: "clients"
-        widget: "list"
         fields:
-          - { label: "Name", name: "name", widget: "string" }
+          - label: "Clients"
+            name: "clients"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
 
   - name: "navigation"
     label: "Navigation"
