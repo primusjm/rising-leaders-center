@@ -1,6 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: primusjm/rising-leaders-center
   branch: main
+  base_url: https://rising-leaders-center.netlify.app
+  auth_endpoint: api/auth
 
 publish_mode: editorial_workflow
 
